@@ -79,8 +79,8 @@ function initialize(address _lidoLocator, address _eip712StETH)
 3. `setStakingLimit()`: Configures staking rate limits
 4. `removeStakingLimit()`: Removes staking restrictions
 
-# Lido Smart Contract Analysis
-## Part 2 - Core Functions & Staking Logic
+
+## Core Functions & Staking Logic
 
 ### Core Functionality Analysis
 
@@ -193,25 +193,6 @@ UNSAFE_CHANGE_DEPOSITED_VALIDATORS_ROLE
 - Role-based access control
 - Critical operation restrictions
 - Validation checks
-
-# Lido Smart Contract Review - Part 3
-
-## Table of Contents
-- [Overview](#overview)
-- [Critical Components](#critical-components)
-- [Security Analysis](#security-analysis)
-- [Gas Optimization](#gas-optimization)
-- [Code Quality](#code-quality)
-- [Recommendations](#recommendations)
-
-## Overview
-
-This section of the Lido contract contains several critical components:
-1. Deprecated public methods for backward compatibility
-2. Core internal functions for processing CL state updates
-3. Reward collection and distribution mechanisms
-4. Withdrawal processing logic
-5. Staking and fee distribution implementations
 
 ## Critical Components
 
